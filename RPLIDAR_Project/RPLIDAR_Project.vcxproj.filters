@@ -1,52 +1,87 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="ソース ファイル">
-      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    <Filter Include="sdk">
+      <UniqueIdentifier>{1fa19eec-d75c-4dea-8c6e-7aa41ac1f315}</UniqueIdentifier>
     </Filter>
-    <Filter Include="ヘッダー ファイル">
-      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    <Filter Include="sdk\include">
+      <UniqueIdentifier>{f1982b6d-e781-4a9c-b2c5-a347795e965b}</UniqueIdentifier>
     </Filter>
-    <Filter Include="リソース ファイル">
-      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
-      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    <Filter Include="sdk\src">
+      <UniqueIdentifier>{55d7d9a0-a4cb-4e7c-8c75-4186d4370fd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk\src\arch">
+      <UniqueIdentifier>{aec308c1-2c2f-486e-a964-65ca03ad948b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk\src\arch\win32">
+      <UniqueIdentifier>{95792d6b-ea3c-4764-b66b-3cfe7202c75f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk\src\hal">
+      <UniqueIdentifier>{ea2e995a-f4b8-4928-9fb3-a1f788a643f4}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="stdafx.h">
-      <Filter>ヘッダー ファイル</Filter>
+    <ClInclude Include="..\..\..\RPLIDAR\sdk\sdk\src\rplidar_driver_serial.h">
+      <Filter>sdk\src</Filter>
     </ClInclude>
-    <ClInclude Include="targetver.h">
-      <Filter>ヘッダー ファイル</Filter>
+    <ClInclude Include="..\..\..\RPLIDAR\sdk\sdk\src\sdkcommon.h">
+      <Filter>sdk\src</Filter>
     </ClInclude>
-    <ClInclude Include="Resource.h">
-      <Filter>ヘッダー ファイル</Filter>
+    <ClInclude Include="..\..\..\RPLIDAR\sdk\sdk\src\hal\abs_rxtx.h">
+      <Filter>sdk\src\hal</Filter>
     </ClInclude>
-    <ClInclude Include="RPLIDAR_Project.h">
-      <Filter>ヘッダー ファイル</Filter>
+    <ClInclude Include="..\..\..\RPLIDAR\sdk\sdk\src\hal\event.h">
+      <Filter>sdk\src\hal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\RPLIDAR\sdk\sdk\src\hal\locker.h">
+      <Filter>sdk\src\hal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\RPLIDAR\sdk\sdk\src\hal\thread.h">
+      <Filter>sdk\src\hal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\RPLIDAR\sdk\sdk\src\hal\util.h">
+      <Filter>sdk\src\hal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\RPLIDAR\sdk\sdk\src\arch\win32\arch_win32.h">
+      <Filter>sdk\src\arch\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\RPLIDAR\sdk\sdk\src\arch\win32\net_serial.h">
+      <Filter>sdk\src\arch\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\RPLIDAR\sdk\sdk\src\arch\win32\timer.h">
+      <Filter>sdk\src\arch\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\RPLIDAR\sdk\sdk\src\arch\win32\winthread.hpp">
+      <Filter>sdk\src\arch\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\RPLIDAR\sdk\sdk\include\rplidar.h">
+      <Filter>sdk\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\RPLIDAR\sdk\sdk\include\rplidar_cmd.h">
+      <Filter>sdk\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\RPLIDAR\sdk\sdk\include\rplidar_driver.h">
+      <Filter>sdk\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\RPLIDAR\sdk\sdk\include\rplidar_protocol.h">
+      <Filter>sdk\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\RPLIDAR\sdk\sdk\include\rptypes.h">
+      <Filter>sdk\include</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="stdafx.cpp">
-      <Filter>ソース ファイル</Filter>
+    <ClCompile Include="..\..\..\RPLIDAR\sdk\sdk\src\rplidar_driver.cpp">
+      <Filter>sdk\src</Filter>
     </ClCompile>
-    <ClCompile Include="RPLIDAR_Project.cpp">
-      <Filter>ソース ファイル</Filter>
+    <ClCompile Include="..\..\..\RPLIDAR\sdk\sdk\src\hal\thread.cpp">
+      <Filter>sdk\src\hal</Filter>
     </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ResourceCompile Include="RPLIDAR_Project.rc">
-      <Filter>リソース ファイル</Filter>
-    </ResourceCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <Image Include="small.ico">
-      <Filter>リソース ファイル</Filter>
-    </Image>
-    <Image Include="RPLIDAR_Project.ico">
-      <Filter>リソース ファイル</Filter>
-    </Image>
+    <ClCompile Include="..\..\..\RPLIDAR\sdk\sdk\src\arch\win32\net_serial.cpp">
+      <Filter>sdk\src\arch\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\RPLIDAR\sdk\sdk\src\arch\win32\timer.cpp">
+      <Filter>sdk\src\arch\win32</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

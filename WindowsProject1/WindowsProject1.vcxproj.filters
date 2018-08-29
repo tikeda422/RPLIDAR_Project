@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="drvlogic">
+      <UniqueIdentifier>{7389f722-04ef-460b-9663-fbdc8252fb2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{cf389245-3e38-4e1f-9b84-8efe7df8531b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{6827f9c7-638c-4502-b91d-31592fe028e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{ec4d3f2f-ba45-46df-9e1b-84aa2e04cf42}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\RPLIDAR\sdk\app\frame_grabber\drvlogic\common.h">
+      <Filter>drvlogic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\RPLIDAR\sdk\app\frame_grabber\drvlogic\lidarmgr.h">
+      <Filter>drvlogic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\RPLIDAR\sdk\app\frame_grabber\resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\RPLIDAR\sdk\app\frame_grabber\scanView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\RPLIDAR\sdk\app\frame_grabber\SerialSelDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\RPLIDAR\sdk\app\frame_grabber\stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\RPLIDAR\sdk\app\frame_grabber\AboutDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\RPLIDAR\sdk\app\frame_grabber\framegrabber.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\RPLIDAR\sdk\app\frame_grabber\FreqSetDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\RPLIDAR\sdk\app\frame_grabber\MainFrm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\RPLIDAR\sdk\app\frame_grabber\drvlogic\lidarmgr.cpp">
+      <Filter>drvlogic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\RPLIDAR\sdk\app\frame_grabber\AboutDlg.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\RPLIDAR\sdk\app\frame_grabber\framegrabber.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\RPLIDAR\sdk\app\frame_grabber\FreqSetDlg.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\RPLIDAR\sdk\app\frame_grabber\MainFrm.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\RPLIDAR\sdk\app\frame_grabber\scanView.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\RPLIDAR\sdk\app\frame_grabber\SerialSelDlg.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\RPLIDAR\sdk\app\frame_grabber\stdafx.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\..\..\RPLIDAR\sdk\app\frame_grabber\framegrabber.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\..\RPLIDAR\sdk\app\frame_grabber\res\rplidar.ico">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="..\..\..\RPLIDAR\sdk\app\frame_grabber\res\Toolbar.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

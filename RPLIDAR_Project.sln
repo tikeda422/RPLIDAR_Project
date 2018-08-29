@@ -3,7 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2047
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RPLIDAR_Project", "RPLIDAR_Project\RPLIDAR_Project.vcxproj", "{5F58CE4B-D6E8-4D64-8F10-F44125B9B198}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RPLIDARDriver", "RPLIDAR_Project\RPLIDAR_Project.vcxproj", "{5F58CE4B-D6E8-4D64-8F10-F44125B9B198}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "frame_grabber", "WindowsProject1\WindowsProject1.vcxproj", "{B29DF28C-8086-4BB2-8C10-2AAD85229B67}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5F58CE4B-D6E8-4D64-8F10-F44125B9B198} = {5F58CE4B-D6E8-4D64-8F10-F44125B9B198}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +26,14 @@ Global
 		{5F58CE4B-D6E8-4D64-8F10-F44125B9B198}.Release|x64.Build.0 = Release|x64
 		{5F58CE4B-D6E8-4D64-8F10-F44125B9B198}.Release|x86.ActiveCfg = Release|Win32
 		{5F58CE4B-D6E8-4D64-8F10-F44125B9B198}.Release|x86.Build.0 = Release|Win32
+		{B29DF28C-8086-4BB2-8C10-2AAD85229B67}.Debug|x64.ActiveCfg = Debug|x64
+		{B29DF28C-8086-4BB2-8C10-2AAD85229B67}.Debug|x64.Build.0 = Debug|x64
+		{B29DF28C-8086-4BB2-8C10-2AAD85229B67}.Debug|x86.ActiveCfg = Debug|Win32
+		{B29DF28C-8086-4BB2-8C10-2AAD85229B67}.Debug|x86.Build.0 = Debug|Win32
+		{B29DF28C-8086-4BB2-8C10-2AAD85229B67}.Release|x64.ActiveCfg = Release|x64
+		{B29DF28C-8086-4BB2-8C10-2AAD85229B67}.Release|x64.Build.0 = Release|x64
+		{B29DF28C-8086-4BB2-8C10-2AAD85229B67}.Release|x86.ActiveCfg = Release|Win32
+		{B29DF28C-8086-4BB2-8C10-2AAD85229B67}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
